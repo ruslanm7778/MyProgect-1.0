@@ -201,6 +201,7 @@ text-align: center;
 }
 
 .portfolio img {
+	max-width: 100%;
 	margin-bottom: 30px;
 }
 
@@ -254,6 +255,7 @@ text-align:center;
 
 
 .price{
+	margin-bottom: 20px;
 background: white;
 transition: 0.3s;
 }
@@ -792,5 +794,15 @@ margin:0 80px;
 	height: 50px;
 	cursor: pointer;
 }
+
+.blog { 
+margin-top: 10px;
+}
+
+.contacts input, .contacts textarea {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 }
 

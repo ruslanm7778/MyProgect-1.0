@@ -119,10 +119,20 @@ $('.filter > div').show(300);
  $(document).ready(function() {$('.menu-icon').click(function() {
 
  	$('nav').slideToggle(500);
- 	$('ul').css({'display':'flex', 'flex-direction':'column'})
- 	
- })
- })
+ 	$('ul').css({'display':'flex', 'flex-direction':'column' }) 
+ })})
+
+  $(document).ready(function() {$('.menu-icon').click(function() {
+  	if($('.menu-icon').html()=='<i class="fas fa-bars"></i>') {
+	$(this).html('<i class="fas fa-times"></i>')
+}
+else {
+	$(this).html('<i class="fas fa-bars"></i>')
+}
+ })})
+
+
+
 
 	// В начяло страницы
    $(document).ready(function() {$(window).scroll(function () {
