@@ -1,0 +1,796 @@
+body {
+
+
+}
+
+
+@import 'fonts.css';
+
+ul, li {
+display: block;
+padding: 0;
+margin: 0;
+
+}
+
+
+.menu-bar {
+	background: white;
+	padding: 10px 0;
+	color: #212121;
+}
+
+.menu__item {
+	margin-left: 37px;
+}
+.menu__item a {
+	
+	font-size: 20px;
+	color: #212121;
+}
+
+.menu__item a:hover {
+	text-decoration: none;
+	color: #868686
+}
+/* a:hover при наведенні,text-decoration: none
+відключити декорацію, і зробити текст сірим(color: #868686
+)*/
+/* хедер меню */
+
+
+
+
+.header > div {
+color: white;
+	padding: 180px 0;
+	text-align: center;
+	background-size: cover;
+	background-position: 0 100%;/* показати ввесь фон*/
+	background-image: url(../img/1.png);
+}
+
+.header__title { font-size: 55px;
+
+}
+
+.header__text{
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
+.button {
+	padding: 10px 25px;
+	margin: 0 10px;
+	color: white;
+	transition: 0.3s;/* для плавної анімації*/
+		background: transparent;/* прозорий фон*/
+	border: 2px solid white;
+}
+
+
+
+.button:hover {
+	border: 2px solid #00897b;
+		border: 2px white;
+	background: #04574e;
+}
+
+*{
+outline: none !important
+}
+
+/* About*/
+
+.about {
+	padding-top: 120px;
+	padding-bottom: 125px;
+color: black;
+background: white;
+	text-align: center;  }/* вирівняти текст по центру блока*/
+
+
+
+	.about__title {
+font-size: 30px;
+font-weight: bold;
+
+	}
+	.about__text {
+		color: #212121;
+		font-size: 15px;
+		margin-bottom: 110px;
+	}
+
+
+	.about__h3 {
+font-size: 20px;
+margin-bottom: 20px;
+margin-top: 30px;
+	}
+
+
+.services {
+	padding-top: 165px;
+
+	padding-bottom: 125px;
+color: black;
+background: #e4fdf9;
+	text-align: center;  }/* вирівняти текст по центру блока*/
+
+.card1 { 
+	transition: 0.3s;
+background: white;
+padding: 50px 20px 40px; 
+transition:0.3;
+margin-bottom: 33px;
+margin-right: 21px; }
+
+
+.about__text1 {
+		font-size: 15px;
+		margin-bottom: 110px;
+	}
+
+.about__text2 {
+		font-size: 15px;
+		margin-bottom: 47px;
+	}
+
+.card1:hover { 
+background: #00897b;
+color: white;
+box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+
+  }
+
+.card1:hover .button-services {
+	border: 1px solid white;
+	color:white;
+}
+
+.icon1 {
+	transition: 0.3s;
+   display: block;
+    margin-left: auto; /*margin-left: auto; margin-right: auto;  выровнять блок по центру    */
+    margin-right: auto; 
+    background: url(../img/smartphonecopy.png); /* Путь к файлу с исходным  рисунком */
+   display: block; /*  Рисунок как блочный элемент */
+    width: 39px; /* Ширина рисунка */
+       height: 63px; /*  Высота рисунка */
+   }
+  .card1:hover .icon1{
+    background: url(../img/smartphone.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+.button-services {
+	transition: 0.3s;
+text-transform: uppercase;
+border: 1px solid black;
+background: transparent;
+padding: 14px 12px 14px;
+}
+
+/* PORTFOLIO*/
+.portfolio {
+padding-top: 120px;
+padding-bottom: 135px;
+text-align: center;
+}
+
+
+.button_portfolio {
+	background: white;
+	border: 2px solid #00897b;
+	padding: 20px 33px;
+	margin: 0 10px;
+	color: black;
+	transition: 0.3s;/* для плавної анімації*/
+		background: transparent;/* прозорий фон*/
+	
+}
+
+
+
+.button_portfolio:hover,
+.focused
+{
+	color: white;
+	border: 2px solid #00897b;
+	background: #04574e;
+}
+
+.portfolio img {
+	margin-bottom: 30px;
+}
+
+.filter {
+	padding: 120px 0px;
+
+}
+
+
+.filter_el {
+	margin-right: px;
+}
+
+
+
+div[filter]:hover img {
+filter:brightness(50%);
+transition: 0.3s;
+
+}
+
+.text { display:none; }
+
+
+div[filter]:hover .text {
+display: block;
+width: 100%;
+color: white;
+position: absolute;
+top: 40%;
+left: 0;
+z-index: 3;
+text-align:center;
+
+}
+
+.view_all {
+	text-align: center;
+}
+
+
+/* pricing*/
+
+.pricing {
+	padding-top:127px;
+	padding-bottom:127px;
+	background:#f0f1f1;
+	text-align:center;
+}
+
+
+
+.price{
+background: white;
+transition: 0.3s;
+}
+.price:hover {
+
+	box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.39)
+}
+
+.price__head p {
+font-size: 25px;
+}
+
+.price__head sup {
+	vertical-align: middle;
+font-size: 25px;
+
+}
+
+
+.price__head sub {
+	vertical-align: middle;
+font-size: 17px;
+}
+
+.price__head {
+	font-size: 50px;
+	color: white;
+	background-image: url(../img/Rectangle.png);
+
+padding-top:40px;
+padding-bottom:65px;
+
+background-size: cover;
+background-repeat: no-repeat;
+max-height: 211px;
+}
+
+.price__body ul li {
+	margin: 0 auto;
+	max-width: 175px;
+	border-bottom: 1px solid #bfbfbf;
+	padding-top:28px;
+	padding-bottom:12px;
+
+}
+
+.price__body {
+	font-size: 17px;
+
+}
+
+
+.price__footer {
+padding:60px 0;
+
+}
+
+.price__footer button {
+	text-transform: uppercase;
+background:transparent;
+	border: 2px solid black;
+	width: 180px;
+	height: 60px;
+	transition:0.3s;
+}
+
+.price__footer button:hover {
+	
+	color:white;
+	background: #00897b;
+	border: none;
+}
+
+.price:hover {
+	box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.39)
+}
+
+
+
+
+
+.ourTeamMember_button {
+	border: none;
+	padding: 10px 19px;
+	border-radius: 10px;
+	margin: 0px 7px;
+}
+
+.ourTeamMember_button:hover {
+	background: #3949ab;
+	border-radius: 10px;
+}
+
+.ourTeamMember {
+	padding-top:125px;
+	padding-bottom:125px;
+	text-align: center;
+}
+
+.ourTeamMember__title {
+font-size: 30px;
+margin-bottom:40px;
+
+
+}
+
+
+.ourTeamMember__text {
+margin-bottom: 130px;
+font-size: 15px;
+}
+
+
+
+
+.ourTeamMember__col {
+	margin: 0 10px;
+
+}
+
+
+
+.ourTeamMember__col h2 {
+	margin-top: 42px;
+	font-size: 20px;
+}
+
+.ourTeamMember__col p {
+	margin-top: 20px;
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
+
+
+
+.icons {
+padding: 0 14px;
+display: flex;
+justify-content: center;
+}
+
+.icons a i {
+transition: 0.3s;
+}
+
+.icons i:nth-child(1){
+	color: #f0f1f1;
+}
+
+.icons i:nth-child(2){
+	color: #00897b;
+}
+
+.icons a:hover i:nth-child(1){
+	color: #3949ab;
+}
+
+.icons a:hover i:nth-child(2){
+	color: #ffffff;
+}
+
+
+
+
+.ourTeamMember_row1 {
+	margin-bottom:125px ;
+}
+
+
+.Ellipses li {
+	margin: 0px 4px;
+}
+
+
+
+
+ .ellipse1 {
+    background: url(../img/Ellipse2.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 15px; /* Ширина рисунка */
+    height: 15px; /*  Высота рисунка */
+ 
+   }
+   .ourTeamMember__col:hover .ellipse1{
+    background: url(../img/Ellipse.png); /* Путь к файлу с заменяемым рисунком  */
+   }
+
+
+
+
+
+.regular img {
+margin:0px auto;
+max-width: 340px;
+}
+
+
+.dots-style {
+margin-top: 115px;
+display: flex;
+justify-content: center;
+}
+
+
+.dots-style button {
+background: #00897b;
+border: none;
+border-radius: 50%;
+font-size: 0;
+height: 15px;
+width: 15px;
+margin: 5px;
+}
+
+
+.dots-style li[class="slick-active"] button {
+	background: #3949ab;
+}
+
+
+
+/*Blog*/
+
+
+.Blog {
+	background: #e4fdf9;
+	padding-top:125px;
+	padding-bottom:125px;
+	text-align: center;
+}
+
+
+
+.blog_row1 {
+	margin-bottom: 125px;
+}
+
+
+.col__text {
+padding-top: 64px;
+text-align: left;
+padding-left: 31px;
+}
+
+
+
+.left > div:first-child {
+	order: 1;
+}
+
+
+.left > div:last-child {
+	order: 2;
+}
+
+
+
+
+.right > div:first-child {
+	order: 2;
+}
+
+
+.right > div:last-child {
+	order: 1;
+}
+
+
+
+
+
+.more_view {
+	
+	border: 2px solid #00897b;
+	padding: 28px 53px;
+	margin-top: 125px;
+	color: #04574e;
+	transition: 0.3s;/* для плавної анімації*/
+		background: transparent;/* прозорий фон*/
+	font-size: 20px;
+}
+
+
+
+.more_view:hover
+
+{
+
+	color: white;
+	border: 2px solid #00897b;
+	background: #04574e;
+}
+
+
+.left, .right {
+	margin: 0 -40px;
+}
+
+
+
+.seo {
+	font-size: 25px;
+color: black;	
+margin-bottom: 27px;
+}
+
+.seo:hover {
+	color: #00897b;
+	 text-decoration: none;
+}
+
+
+.imgico {
+	margin-right: 15px;
+}
+
+
+.seop {
+	font-size: 17px;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.imgico2 {
+		margin-right: 15px;
+		padding-left: 47px;
+}
+
+
+
+
+
+.contacts {
+	 background: url(../img/last.png);
+	 color: white;
+	 padding-top: 115px;
+	 text-align: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.div_img {
+	 background: #3949ab;
+	 height: 107px;
+	 width:  107px;
+	 border-radius: 50%;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 margin: 0 auto;
+	 margin-bottom: 38px;
+}
+
+.header_contacts {
+	margin-bottom: 100px;
+	
+}
+
+
+.contacts_menu {
+margin:0 80px;
+
+}
+
+.textp {
+	font-size: 15px;
+}
+
+#phead {
+	font-size: 15px;
+}
+
+.header_contacts h2{
+	margin-bottom: 37px;
+}
+
+
+.contacts input{
+	margin-top: 83px;
+	padding: 30px;
+	width:100%;
+	border-radius: 10px;
+	border: none;
+}
+
+
+.contacts textarea{
+	margin-top: 33px;
+	width:100%;
+	border-radius: 10px;
+	border: none;
+	padding: 20px 18px;
+	resize: none;
+}
+
+
+
+.contacts button{
+	margin-top: 40px;
+	border-radius: 10px;
+	border: none;
+	padding: 28px 85px;
+	font-size: 15px;
+	margin-bottom:110px;
+}
+
+
+
+.row_end {
+	background: white;
+	font-size: 20px;
+	height: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+.row_end_p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+
+.blog-item {
+   width: 48%;
+}
+
+.left>div:first-child {
+   order: 1;
+}
+
+.left>div:last-child {
+   order: 2;
+}
+
+.right>div:first-child {
+   order: 2;
+}
+
+.right>div:last-child {
+   order: 1;
+}
+
+.blog {
+   text-align: left;
+   margin-top: 60px;
+}
+
+.blog a {
+   font-size: 25px;
+   color: #00897b;
+   font-family: 'Open Sans Semibold';
+}
+
+.blog div {
+   margin-top: 15px;
+   margin-bottom: 20px;
+}
+
+.blog span {
+   font-size: 17px;
+   font-family: 'Open Sans Semibold';
+   margin-right: 35px;
+}
+
+.blog i {
+   margin-right: 15px;
+}
+
+.blog p {
+   font-size: 15px;
+}
+
+.button_blog {
+   width: 220px;
+   height: 70px;
+   text-transform: uppercase;
+   color: white;
+   font-size: 20px;
+   margin-top: 125px;
+   transition: 0.3s;
+   border: 2px solid #00897b;
+   cursor: pointer;
+   background: #00897b;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+}
+
+.button_blog:hover {
+   background: transparent;
+   color: #000;
+}
+
+
+
+
+#toTop {
+   z-index: 999;
+   width: 40px;
+   height: 40px;
+   border: none;
+   font-size: 20px;
+   border-radius: 3px;
+   background: white;
+   text-align: center;
+   padding: 5px;
+   position: fixed;
+   bottom: 10px;
+   right: 10px;
+   cursor: pointer;
+   display: none;
+   color: #000000;
+}
+
+
+.menu-icon { display: none; }
+
+@media screen and (max-width: 1024px) {
+	nav {
+		display: none;
+	}
+	.logo-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-icon {
+	display: block;
+	background: #white;
+	border: none;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+}
+
